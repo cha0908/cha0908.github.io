@@ -1,0 +1,254 @@
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* #root {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+} */
+
+#root {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    /* max-height: 100%; */
+}
+
+
+.navbar {
+    /* position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    height: 55%;
+    /* width: 20%; */
+    margin-left: 220px;
+}
+
+#logo-div {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#logo-div a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 220px;
+}
+
+.on-page {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.5s;
+}
+
+.off-page {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-size: 30px;
+    color: #8f9197;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.5s;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#firstname, #lastname {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    /* font-style: normal;
+    font-weight: normal; */
+    font-size: 310px;
+    /* color: #2F489F; */
+    color: #4054A3;
+    /* color: #49458F; */
+    margin: 0px;
+}
+
+#firstname {
+    position: absolute;
+    left: -30px;
+    top: 200px;
+}
+
+#lastname {
+    position: absolute;
+    top: 350px;
+    right: -30px;
+}
+
+#swe {
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    font-style: normal;
+    font-size: 85px;
+    color: black;
+    position: absolute;
+    top: 544px;
+    left: 15px;
+    margin: 0;
+    /* letter-spacing: 3px; */
+}
+
+#location {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    position: absolute;
+    top: 657px;
+    right: 198px;
+    margin: 0px;
+}
+
+#namediv {
+    width: 100vw;
+    margin: 0px;
+    margin-top: 20px;
+    
+}
+
+#name {
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    font-style: normal;
+    font-size: 50px;
+    margin-left: 220px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#jobs {
+    width: 70%;
+}
+
+.job-container {
+    background-color: #F6FAFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%; */
+    padding: 30px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.company-logo {
+    width: 200px;
+    /* height: auto; */
+    margin: 20px;
+    align-self: center;
+}
+
+.job-text {
+    margin-left: 70px;
+    height: 100%;
+}
+
+.company-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.duration { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.description {
+    margin: 0px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#csm-logo {
+    border-radius: 50px;
+    width: 220px;
+    height: auto;
+    margin-right: 0px;
+}
+
+#csm .job-text {
+    margin-top: 15px;
+}
+
+
+
+
+/*
+FONTS 
+*/
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Bold'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Bold Condensed'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBoldCn.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ITC Avant Garde Gothic Std Medium'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdMd.woff') format('woff');
+}

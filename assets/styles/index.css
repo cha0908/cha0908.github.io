@@ -101,7 +101,7 @@ a:hover {
 #left {
     position: absolute;
     left: -2%;
-    width: 57%;
+    width: 56%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ a:hover {
     position: absolute;
     width: 43%;
     height: 70%;
-    right: 0%;
+    right: -6vw;
     bottom: 0%;
 }
 
@@ -147,10 +147,12 @@ a:hover {
     width: 100%;
     height: 70%;
     text-align: right;
+    font-size: 15vw
 }
 
 #lastname {
     width: 100%;
+    font-size: 15vw;
 }
 
 #swe {

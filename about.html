@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Isaac Chan</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Isaac Chan - Software Engineer from Hong Kong based in Boston">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/common.css"/>
     <link rel="stylesheet" type="text/css" href="assets/styles/about.css"/>
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-
+    
+    <!-- Load scripts with defer attribute -->
+    <script src="assets/js/utils.js" defer></script>
+    <script src="assets/components/navbar.js" defer></script>
+    <script src="assets/components/social.js" defer></script>
+    <script src="assets/components/theme-toggle.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
   </head>
   
   <body>
     <div id="root">
-    <div class="navbar">
-        <div id="logo-div">
-            <a href="index.html"><img id="logo" src="assets/img/logoisaac.png"></a>
-        </div>
-        <div id="options">
-            <a class="off-page" href="exp.html">past experiences</a>
-            <a class="on-page" href="about.html">personal information</a>
-        </div>
-      </div>
+      <!-- Navbar will be inserted here by JavaScript -->
+      
       <div id="namediv">
         <p id="name">More about me!</p>
       </div>
+      
       <div class="content">
-          <div class="container" id="left">
-            <p class="about">Hello! My name’s Isaac and I'm a senior studying computer science at Boston University. I grew up in Hong Kong and came to Boston in pursuit of knowledge and university degree. My journey to computer science is an unconventional one, with my first computer science experience being an introductory class in my freshmen spring semester.</p>
-            <p class="about">I had the opportunity of interning at Lenovo PCCW Solutions this past summer, where I worked on one application development project in the artificial intelligence field. Given my experience is mostly in frontend development for applications, I believe that my skillset is suited in this area for the near future with experience in frameworks like React and Flask. </p>
-            <p class="about">A few things about me: sports are one of my passions. Football (or soccer), basketball, tennis, and fencing were the sports I've either picked up recently or have been doing since I was younger. I also occasionally enjoy singing and making mini covers on Garageband. </p>
-            <p class="about">Feel free to get in touch! My contact info is below and here's my <a href="assets/docs/resume.pdf" id="resume" target="_blank">resume</a>.</p>
-            <div class="social">
-                <div id="social-wrapper">
-                    <a class="icon" href="https://www.linkedin.com/in/isaaccchan/" target="_blank">
-                        <img id="linkedin" src="assets/img/linkedin.png">
-                    </a>
-                    <a class="icon" href="mailto:cha0908@bu.edu">
-                    <img id="gmail" src="assets/img/gmail.png">
-                    </a>
-                </div>
-              </div>
-          </div>
-          <div class="container" id="right">
-            <div id="photo-container">
-              <img id="photo" src="assets/img/isaac.jpeg">
+        <div class="container" id="left">
+          <p class="about">Hello! My name's Isaac and I'm a senior studying computer science at Boston University. I grew up in Hong Kong and came to Boston in pursuit of knowledge and university degree. My journey to computer science is an unconventional one, with my first computer science experience being an introductory class in my freshmen spring semester.</p>
+          <p class="about">I had the opportunity of interning at Lenovo PCCW Solutions this past summer, where I worked on one application development project in the artificial intelligence field. Given my experience is mostly in frontend development for applications, I believe that my skillset is suited in this area for the near future with experience in frameworks like React and Flask. </p>
+          <p class="about">A few things about me: sports are one of my passions. Football (or soccer), basketball, tennis, and fencing were the sports I've either picked up recently or have been doing since I was younger. I also occasionally enjoy singing and making mini covers on Garageband. </p>
+          <p class="about">Feel free to get in touch! My contact info is below and here's my <a href="assets/docs/resume.pdf" id="resume" target="_blank">resume</a>.</p>
+          <div class="social">
+            <div id="social-wrapper">
+              <a class="icon" href="https://www.linkedin.com/in/isaaccchan/" target="_blank">
+                <img id="linkedin" src="assets/img/linkedin.png">
+              </a>
+              <a class="icon" href="mailto:cha0908@bu.edu">
+                <img id="gmail" src="assets/img/gmail.png">
+              </a>
             </div>
           </div>
+        </div>
+        <div class="container" id="right">
+          <div id="photo-container">
+            <img id="photo" src="assets/img/isaac.jpeg" alt="Isaac Chan">
+          </div>
+        </div>
       </div>
     </div>
   </body>
